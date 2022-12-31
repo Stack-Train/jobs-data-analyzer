@@ -1,13 +1,16 @@
-# jobs-data-anlyzer
-A tool to provide useful insights into jobs data.
+# Jobs Data Analyzer 📈
 
-## Issue types
+An easy to use tool for extracting meaningful data from jobs data.
+
+## We've got Issues! 📋
+
+There are basically three `issue` types;
 
 1. `Feature`: May require the creation of a branch, especially if issue title is too broad. e.g. `Create visualization site.`
-2. Major: An issue that affects many parts of the `project` and needs to be fixed ASAP. Could be a bug / tool issue.
-3. Minor: No need to panic.
+2. `Major`: An issue that affects many parts of the `project` and needs to be fixed ASAP. Could be a `bug` / tool issue.
+3. `Minor`: There's no need to panic about this issue.
 
-## Working with issue-based branches
+## Working with issue-based branches 🎋
 
 Lets say you want to work on a `feature` issue for example; **`JDA-12`: Build working visualization site**
 
