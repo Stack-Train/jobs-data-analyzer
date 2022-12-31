@@ -1,6 +1,6 @@
 # Jobs Data Analyzer 📈
 
-An easy to use tool for extracting meaningful data from jobs data.
+An easy to use tool for extracting meaningful insights from jobs data.
 
 ## We've got Issues! 📋
 
