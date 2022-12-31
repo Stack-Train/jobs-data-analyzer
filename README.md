@@ -11,15 +11,21 @@ A tool to provide useful insights into jobs data.
 
 Lets say you want to work on a `feature` issue for example; **`JDA-12`: Build working visualization site**
 
-### 1. Create a branch of our main repo - `jobs-data-analyzer` via a `JIRA` issue panel see image below;
+### 1. Create a branch of our main repo
+
+Create a branch of`jobs-data-analyzer` via a `JIRA` issue panel see image below;
 
 <img width="854" alt="Create a new branch via JIRA" src="https://user-images.githubusercontent.com/9142438/210124742-de51ce8a-e32c-46b2-b412-33de7cc2abb2.png">
 
-### 2. Go to the `jobs-data-analyzer` repo on `GitHub` and make sure the `branch` you created exists on `Github`;
+### 2. Go to the repo on `Github`
+
+Go to the `jobs-data-analyzer` repo on `GitHub` and make sure the `branch` you created exists on `Github`;
 
 <img width="839" alt="Select the newly created branch" src="https://user-images.githubusercontent.com/9142438/210124855-efef1136-7ca4-4807-9176-b0067b1cfd4f.png">
 
-### 3. Choose `HTTPS`, `SSH`, copy the link and clone the `branch`;
+### 3. Clone the branch 
+
+Choose `HTTPS`, `SSH`, copy the link and clone the `branch`;
 
 <img width="567" alt="clone issue branch" src="https://user-images.githubusercontent.com/9142438/210125001-f41280fd-c6c6-4fb7-9c91-5eece5f88109.png">
 
