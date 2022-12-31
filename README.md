@@ -35,9 +35,11 @@ Clone the branch: `git clone -b JDA-12 git@github.com:StackBreakthrough/jobs-dat
 
 <img width="636" alt="Work on it" src="https://user-images.githubusercontent.com/9142438/210125476-ef73526d-e7cf-4951-888a-2a49e8f75f0b.png">
 
-### Shortcut 
+# Shortcut 
 
-You could also could've simply created the branch via your command line; `git checkout -b JDA-12` and switched to it for the following steps. ¯\_(ツ)_/¯
+You could also could've simply created the branch via your command line; 
+``` git checkout -b JDA-12 ``` 
+and switched to it for the following steps. ¯\_(ツ)_/¯
 
 #### Step 1
 
