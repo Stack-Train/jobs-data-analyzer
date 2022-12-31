@@ -10,6 +10,8 @@ There are basically three `issue` types;
 2. `Major`: An issue that affects many parts of the `project` and needs to be fixed ASAP. Could be a `bug` / tool issue.
 3. `Minor`: There's no need to panic about this issue.
 
+For more about issues, check out the `JIRA` board; [issues board](https://solvestack.atlassian.net/jira/software/projects/JDA/boards/1)
+
 ## Working with issue-based branches 🎋
 
 Lets say you want to work on a `feature` issue for example; **`JDA-12`: Build working visualization site**
