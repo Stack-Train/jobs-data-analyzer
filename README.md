@@ -65,4 +65,4 @@ You have a number of options;
 
 ## Another way to merge your changes with the main branch
 
-If seems like a long process then you might consider just adding, commiting and pushing to your remote branch and using Github's pull request to merge your changes with the main branch.
+If this seems like a long process then you might consider just pushing your changes to your remote branch and using Github's pull request to merge it with the `main` branch.
