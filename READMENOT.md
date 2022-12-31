@@ -4,7 +4,7 @@ An easy to use tool for extracting insights from jobs data.
 
 ## [We've got Issues! 📋](https://solvestack.atlassian.net/jira/software/projects/JDA/boards/1)
 
-There are basically three `issue` types;
+There are basically three `issue` levels;
 
 1. `Feature`: May require the creation of a branch, especially if issue title is too broad. e.g. `Create visualization site.`
 2. `Major`: An issue that affects many parts of the `project` and needs to be fixed ASAP. Could be a `bug` / tool issue.
