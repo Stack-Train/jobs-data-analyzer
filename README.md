@@ -63,6 +63,6 @@ You have a number of options;
 3. `git switch JDA-12` 
 4. `git push origin JDA-12`
 
-## Your `branch` belongs to you
+## Another way to merge your changes with the main branch
 
-Just make sure that your changes are `commited` on your branch before switching to the `main` branch for `merging`. 
+If seems like a long process then you might consider just adding, commiting and pushing to your remote branch and using Github's pull request to merge your changes with the main branch.
