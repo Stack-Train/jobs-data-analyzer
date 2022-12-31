@@ -3,7 +3,7 @@ A tool to provide useful insights into jobs data.
 
 ## Issue types
 
-1. `Feature`: May require the creation of a branch, especially if issue title is too broad. e.x. `Create visualization site.`
+1. `Feature`: May require the creation of a branch, especially if issue title is too broad. e.g. `Create visualization site.`
 2. Major: An issue that affects many parts of the `project` and needs to be fixed ASAP. Could be a bug / tool issue.
 3. Minor: No need to panic.
 
