@@ -1,25 +1,66 @@
+<br />
+<br />
+
 # Jobs Data Analyzer 📈
 
-An easy to use tool for extracting insights from jobs data.
+<br />
 
-## Tableau WebApp with Flask backend
-Web Server with Python Flask back-end and authentication, with login and a Tableau dashboard management.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &check; An easy to use tool for extracting insights from jobs data. <br />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &check; A tool to enhance the job search experience. 
+
+<br />
+
+## Getting started
+
+1. Read and contribute to **project pages**.
+
+2.  Add or edit issues on the project **board**.
+
+3. Work on issues. Mention a `JIRA` issue in your `commit` message if it's related. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For example; ```git commit -m "Partially resolves JDA-6"```
+
+
+<br />
+
+<img width="629" alt="Project Pages" src="https://user-images.githubusercontent.com/9142438/210152252-3af5f310-61d5-4d2e-91bf-4b89f4386b52.png">
+
+<br />
+
+<br />
+
+--- 
+
+<br />
+
+# Tableau WebApp with Flask backend
+
+A Web Server with Python Flask back-end authentication, login and a Tableau dashboard.
 
 ## Usage
-You just need to launch the main.py script. It will start a web server on localhost:5000.
-There's need to be a Tableau server running on 10.0.55.1  (otherwise you'll have to change the address in the files)
+
+Launch the `main.py` script. It will start a `web server` on `localhost:5000`. <br />
+There's needs to be a `Tableau server` running on `10.0.55.1`  ( otherwise you'll have to change the address in the files )
+
 ```
 Login example:
 username:   user1
 password:   yourpassword
 ```
-### Login form example
+## Login form example
+
 ![alt text](login_form.PNG)
 
-### Dashboard page example
+## Dashboard page example
+
 ![alt text](dashboard.PNG)
 
-### Built with
+<br />
+<br />
+
+## Built with
+
 - Python 3 (Flask framework)
 - Tableau (Rest API and JS API)
 - HTML / CSS / JS
