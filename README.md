@@ -42,7 +42,7 @@ Clone the branch: `git clone -b JDA-12 git@github.com:StackBreakthrough/jobs-dat
 
 You could also could've simply created the branch via your command line; 
 
-``` git checkout -b JDA-12 ``` 
+`git checkout -b JDA-12` 
 
 and switched to it for the following steps. ¯\_(ツ)_/¯
 
@@ -69,3 +69,25 @@ You have a number of options;
 ## Another way to merge your changes with the main branch
 
 If this seems like a long process then you might consider just pushing your changes to your remote branch and using Github's pull request to merge it with the `main` branch.
+
+# Tableau WebApp with Flask backend
+Web Server with Python Flask back-end and authentication, with login and a Tableau dashboard management.
+
+# Usage
+You just need to launch the main.py script. It will start a web server on localhost:5000.
+There's need to be a Tableau server running on 10.0.55.1  (otherwise you'll have to change the address in the files)
+```
+Login example:
+username:   user1
+password:   yourpassword
+```
+# Login form example
+![alt text](login_form.PNG)
+
+# Dashboard page example
+![alt text](dashboard.PNG)
+
+# Built with
+- Python 3 (Flask framework)
+- Tableau (Rest API and JS API)
+- HTML / CSS / JS
