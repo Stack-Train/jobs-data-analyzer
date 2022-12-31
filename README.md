@@ -13,11 +13,11 @@
 
 ## Getting started
 
-1. Read and contribute to **project pages**.
+1. Read and contribute to [**Project pages**](https://solvestack.atlassian.net/jira/software/projects/JDA/pages).
 
-2.  Add or edit issues on the project **board**.
+2. Add or edit issues on the project [**Board**](https://solvestack.atlassian.net/jira/software/projects/JDA/boards/1).
 
-3. Work on issues. Mention a `JIRA` issue in your `commit` message if it's related. 
+3. Work on issues on the **Board**. Mention a `JIRA` issue in your `commit` message if it's related. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For example; ```git commit -m "Partially resolves JDA-6"```
 
