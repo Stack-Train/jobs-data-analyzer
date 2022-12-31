@@ -30,10 +30,14 @@ Choose `HTTPS`, `SSH`, copy the link and clone the `branch`;
 <img width="567" alt="clone issue branch" src="https://user-images.githubusercontent.com/9142438/210125001-f41280fd-c6c6-4fb7-9c91-5eece5f88109.png">
 
 Clone the branch: `git clone -b JDA-12 git@github.com:StackBreakthrough/jobs-data-analyzer.git`
-`
+
 `cd` into the folder and work on your branch
 
 <img width="636" alt="Work on it" src="https://user-images.githubusercontent.com/9142438/210125476-ef73526d-e7cf-4951-888a-2a49e8f75f0b.png">
+
+### Shortcut 
+
+You could also could've simply created the branch via your command line; `git checkout -b JDA-12` and switched to it for the following steps. ¯\_(ツ)_/¯
 
 #### Step 1
 
@@ -49,10 +53,11 @@ Then `checkout` the `main` `branch` and merge it with your `branch`, `JDA-12` in
 
 ### Step 3 
 
-You can `git push origin main` or `switch` back to your branch to add more stuff for merging or push what you already have to the remote branch; 
+You have a number of options;
 
-1. `git switch JDA-12` 
-2. `git push origin JDA-12`
+1. `git push origin main` or `switch` back to your branch (`JDA-12`) and add more stuff, or push what you already have in that branch to its remote; 
+3. `git switch JDA-12` 
+4. `git push origin JDA-12`
 
 ## Your `branch` belongs to you
 
