@@ -13,9 +13,9 @@
 
 ## Getting started
 
-1. Read and contribute to [**Project pages**](https://solvestack.atlassian.net/jira/software/projects/JDA/pages).
+1. Read and contribute to [**Project pages**](https://solvestack.atlassian.net/jira/software/projects/JDA/pages){:target="_blank"}.
 
-2. Add or edit issues on the project [**Board**](https://solvestack.atlassian.net/jira/software/projects/JDA/boards/1).
+2. Add or edit issues on the project [**Board**](https://solvestack.atlassian.net/jira/software/projects/JDA/boards/1){:target="_blank"}.
 
 3. Work on issues on the **Board**. Mention a `JIRA` issue in your `commit` message if it's related. 
 
