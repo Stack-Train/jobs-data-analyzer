@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Jobs Data Analyzer 📈
 
 An easy to use tool for extracting insights from jobs data.
@@ -29,15 +30,44 @@ Go to the `jobs-data-analyzer` repo on `GitHub` and make sure the `branch` you c
 ### 3. Clone the branch 
 
 Choose `HTTPS`, `SSH`, copy the link and clone the `branch`;
+=======
+# jobs-data-anlyzer
+A tool to provide useful insights into jobs data.
+
+## Issue types
+
+1. `Feature`: May require the creation of a branch, especially if issue title is too broad. e.x. `Create visualization site.`
+2. Major: An issue that affects many parts of the `project` and needs to be fixed ASAP. Could be a bug / tool issue.
+3. Minor: No need to panic.
+
+## Working with issue-based branches
+
+Lets say you want to work on a `feature` issue for example; **`JDA-12`: Build working visualization site**
+
+### 1. Create a branch of our main repo - `jobs-data-analyzer` via a `JIRA` issue panel see image below;
+
+<img width="854" alt="Create a new branch via JIRA" src="https://user-images.githubusercontent.com/9142438/210124742-de51ce8a-e32c-46b2-b412-33de7cc2abb2.png">
+
+### 2. Go to the `jobs-data-analyzer` repo on `GitHub` and make sure the `branch` you created exists on `Github`;
+
+<img width="839" alt="Select the newly created branch" src="https://user-images.githubusercontent.com/9142438/210124855-efef1136-7ca4-4807-9176-b0067b1cfd4f.png">
+
+### 3. Choose `HTTPS`, `SSH`, copy the link and clone the `branch`;
+>>>>>>> 353eba1 (Update README.md)
 
 <img width="567" alt="clone issue branch" src="https://user-images.githubusercontent.com/9142438/210125001-f41280fd-c6c6-4fb7-9c91-5eece5f88109.png">
 
 Clone the branch: `git clone -b JDA-12 git@github.com:StackBreakthrough/jobs-data-analyzer.git`
+<<<<<<< HEAD
 
+=======
+`
+>>>>>>> 353eba1 (Update README.md)
 `cd` into the folder and work on your branch
 
 <img width="636" alt="Work on it" src="https://user-images.githubusercontent.com/9142438/210125476-ef73526d-e7cf-4951-888a-2a49e8f75f0b.png">
 
+<<<<<<< HEAD
 # Shortcut 
 
 You could also could've simply created the branch via your command line; 
@@ -46,6 +76,8 @@ You could also could've simply created the branch via your command line;
 
 and switched to it for the following steps. ¯\_(ツ)_/¯
 
+=======
+>>>>>>> 353eba1 (Update README.md)
 #### Step 1
 
 Add and commit your changes to your branch `JDA-12` in this case.
@@ -60,6 +92,7 @@ Then `checkout` the `main` `branch` and merge it with your `branch`, `JDA-12` in
 
 ### Step 3 
 
+<<<<<<< HEAD
 You have a number of options;
 
 1. `git push origin main` or `switch` back to your branch (`JDA-12`) and add more stuff, or push what you already have in that branch to its remote; 
@@ -69,3 +102,13 @@ You have a number of options;
 ## Another way to merge your changes with the main branch
 
 If this seems like a long process then you might consider just pushing your changes to your remote branch and using Github's pull request to merge it with the `main` branch.
+=======
+You can `git push origin main` or `switch` back to your branch to add more stuff for merging or push what you already have to the remote branch; 
+
+1. `git switch JDA-12` 
+2. `git push origin JDA-12`
+
+## Your `branch` belongs to you
+
+Just make sure that your changes are `commited` on your branch before switching to the `main` branch for `merging`. 
+>>>>>>> 353eba1 (Update README.md)
