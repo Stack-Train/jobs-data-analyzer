@@ -31,38 +31,3 @@
 <br />
 
 <br />
-
---- 
-
-<br />
-
-# Tableau WebApp with Flask backend
-
-A Web Server with Python Flask back-end authentication, login and a Tableau dashboard.
-
-## Usage
-
-Launch the `main.py` script. It will start a `web server` on `localhost:5000`. <br />
-There's needs to be a `Tableau server` running on `10.0.55.1`  ( otherwise you'll have to change the address in the files )
-
-```
-Login example:
-username:   user1
-password:   yourpassword
-```
-## Login form example
-
-![alt text](login_form.PNG)
-
-## Dashboard page example
-
-![alt text](dashboard.PNG)
-
-<br />
-<br />
-
-## Built with
-
-- Python 3 (Flask framework)
-- Tableau (Rest API and JS API)
-- HTML / CSS / JS
