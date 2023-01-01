@@ -17,9 +17,11 @@
 
 2. Add or edit issues on the project [**Board**](https://solvestack.atlassian.net/jira/software/projects/JDA/boards/1)
 
-3. Work on issues on the **Board**. Mention a `JIRA` issue in your `commit` message if it's related. 
+3. Read `GIT-IT.md`
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For example; ```git commit -m "JDA-6 , Patch"```
+4. Begin working on issues from the **Board**. <br />
+   Mention a `JIRA` issue in your `commit` message if it's related. <br />
+   For example; ```git commit -m "JDA-6 , Patch"```
 
 
 <br />
