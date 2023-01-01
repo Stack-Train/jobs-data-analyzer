@@ -19,7 +19,7 @@
 
 3. Work on issues on the **Board**. Mention a `JIRA` issue in your `commit` message if it's related. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For example; ```git commit -m "Partially resolves JDA-6"```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For example; ```git commit -m "JDA-6 , Patch"```
 
 
 <br />
