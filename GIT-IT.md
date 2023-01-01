@@ -40,7 +40,7 @@ Clone the branch: `git clone -b JDA-12 git@github.com:StackBreakthrough/jobs-dat
 
 # Shortcut 
 
-You could also could've simply created the branch via your command line; 
+You could also could've simply created the branch from `main` via your command line ( assuming you initially cloned the main branch ); 
 
 `git checkout -b JDA-12` 
 
