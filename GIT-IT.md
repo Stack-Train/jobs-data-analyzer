@@ -16,13 +16,7 @@ Create a branch of`jobs-data-analyzer` via a `JIRA` issue panel see image below;
 
 <img width="854" alt="Create a new branch via JIRA" src="https://user-images.githubusercontent.com/9142438/210124742-de51ce8a-e32c-46b2-b412-33de7cc2abb2.png">
 
-## 2. Go to the repo on `Github`
-
-Go to the `jobs-data-analyzer` repo on `GitHub` and make sure the `branch` you created exists on `Github`;
-
-<img width="839" alt="Select the newly created branch" src="https://user-images.githubusercontent.com/9142438/210124855-efef1136-7ca4-4807-9176-b0067b1cfd4f.png">
-
-## 3. Clone the branch 
+## 2. Clone the branch 
 
 Choose `HTTPS`, `SSH`, copy the link and clone the `branch`;
 
@@ -62,7 +56,8 @@ You have a number of options;
 3. `git switch JDA-12` 
 4. `git push origin JDA-12`
 
-# Another way to merge your changes with the main branch
+## Another way to merge your changes with the main branch
 
-If this seems like a long process then you might consider just pushing your changes to your remote branch and using Github's pull request to merge it with the `main` branch.
+If this seems like a long process then you might consider just pushing your changes to your remote branch.
+Then use Github's pull request to merge it with the `main` branch.
 
