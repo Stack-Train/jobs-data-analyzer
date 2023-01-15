@@ -3,8 +3,18 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Mac .DS_Store 
+.preset.sh
+.DS_Store
+*/.DS_Store
+*.DS_Store
+
 # C extensions
 *.so
+
+# Third-part
+.aws/
+.aws/*
 
 # Distribution / packaging
 .Python
@@ -104,6 +114,8 @@ celerybeat.pid
 # Environments
 .env
 .venv
+*/.env
+*/venv
 env/
 venv/
 ENV/

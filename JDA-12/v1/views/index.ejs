@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <%- include('partials/header'); %>
+  <!-- MAIN -->
+  <body>
+      <main>
+          <div class="heading">
+            <h1><%= title %></h1>
+            <p class="welcome"> Welcome to <%= title %> </p>          
+          </div>
+
+            <div class="search">
+
+              <label for="query1">1st Query</label>
+              <input type="text" id="query1" name="query1" placeholder="Not working">
+              <label>vs</label>
+              <label for="query2">2nd Query</label>
+              <input type="text" id="query2" name="query2" placeholder="Not working">
+
+            </div>
+          <%- include('partials/chart'); %>
+      </main>
+      <%- include('partials/footer'); %>
+      <script type="application/javascript" src="main.js"></script>
+
+  </body>
+</html>

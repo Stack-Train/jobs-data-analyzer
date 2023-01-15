@@ -1,3 +1,4 @@
+# Giting it. Start here.
 # [We've got Issues! 📋](https://solvestack.atlassian.net/jira/software/projects/JDA/boards/1)
 
 There are basically three categories of `issues`;

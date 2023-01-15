@@ -1,0 +1,86 @@
+:root {
+  --width: 400px;
+  --height: 600px;
+}
+html,body{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+h1{
+    text-align:center;
+    margin-top: 0px;
+}
+h2{
+    text-decoration: capitalize;
+}
+label{
+    text-align: bottom;
+}
+input[type="text"],label{
+    padding: 0.5rem;
+    font-size: 1rem;
+    vertical-align: baseline;
+    text-transform: capitalize;
+    border-radius: 0.2rem;
+    font-style: monospace;
+}
+input[type="text"]{
+    border: 2px solid deepskyblue;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: mintcream;
+}
+#chartWrapper{
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid mediumaquamarine;
+    border-bottom: 2px solid mediumaquamarine
+}
+.fwrapper{
+    display: flex;
+}
+.footer{
+    display: flex;
+}
+.col1,.col2,.col3{
+    padding: 1rem;
+    margin: 0 2rem;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom, mintcream, azure);
+    padding: 1rem;
+}
+
+.chart-container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+    grid-template-rows: 400px 400px;
+    padding: 2rem;
+    margin: auto;
+;
+}
+
+.welcome{
+    text-align:center;
+}
+
+.search{;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    padding: 3em 0;
+    background-color: azure;
+}

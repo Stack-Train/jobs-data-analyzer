@@ -1,0 +1,11 @@
+You should read the full agreement above, but a few things we want to point out about your new sandbox:
+
+Your site may be updated at any time and content could be wiped or lost. Always back up what you’re working on.
+Your site is not intended for heavy workloads. If your site negatively impacts other developer sites, we may throttle or remove it.
+Examples for the types of activities you should use the Tableau Cloud development site for include:
+
+Testing and evaluating new or updated Tableau APIs*
+Build and test Dashboard Extensions that you can deploy internally or share via the Tableau Exchange
+Build and test new embedded deployments of Tableau
+Test automation scripts that use Tableau REST APIs or tabcmd
+Create new workflows for Tableau using webhooks
