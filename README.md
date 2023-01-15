@@ -5,6 +5,15 @@
 
 <br />
 
+<span>
+<img width="400" src="barchart.png">
+<img width="400" src="piechart.png">
+</span>
+
+<br />
+
+<br />
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &check; An easy to use tool for extracting insights from jobs data. <br />
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &check; A tool to enhance the job search experience. 
