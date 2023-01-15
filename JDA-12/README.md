@@ -2,6 +2,11 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp; Everything related to visualization. <br />
 
+<span>
+<img width="400" src="../piechart.png">
+<img width="400" src="../barchart.png">
+</span>
+
 &nbsp;&nbsp;&nbsp;&nbsp; [References issue JDA-12](https://solvestack.atlassian.net/browse/JDA-12?atlOrigin=eyJpIjoiZjMzZjNkNjBjMTIxNDYyNGJmZWJiZDc0MmU2YzY4OTciLCJwIjoiaiJ9)
 
 
