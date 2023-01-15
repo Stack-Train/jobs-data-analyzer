@@ -1,0 +1,43 @@
+html,body{
+    width:100%;
+    margin:0 auto;
+    padding:0;
+}
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+  text-decoration:none;
+  padding: 0.35rem;
+  border: 2px solid;
+}
+h1{
+    padding
+}
+main,footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: 50%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.description,.about{
+    display: flex;
+    flex-direction: column;
+}
+
+.description{
+    display: flex;
+    align-items: center;
+}
