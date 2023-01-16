@@ -14,9 +14,6 @@ jobs:
     steps:
       - checkout:
           path: ~/jobs-data-analyzer
-      - run:
-          name: "check"
-          command: "ls -a ./"
       - node/install-packages:
           app-dir: ""
           cache-only-lockfile: true 
@@ -24,15 +21,21 @@ jobs:
           include-branch-in-cache-key: true 
           pkg-manager: npm 
           with-cache: true 
+      - run:
+          name: "check-install"
+          command: "ls -a ./ && npm install"
+
   build:
     # Specify the execution environment. You can specify an image from Dockerhub or use one of our Convenience Images from CircleCI's Developer Hub.
     # See: https://circleci.com/docs/2.0/configuration-reference/#docker-machine-macos-windows-executor
     docker:
       - image: cimg/base:stable
-    # Add steps to the job
-    # See: https://circleci.com/docs/2.0/configuration-reference/#steps
+    
+    working_directory: ~/jobs-data-analyzer/JDA-12
+    
     steps:
-      - checkout
+      - checkout:
+          path: ~/jobs-data-analyzer
       - run:
           name: "install-python"
           command: "sudo apt-get install python && python --version"
