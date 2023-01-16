@@ -1,10 +1,22 @@
 # See: https://circleci.com/docs/2.0/configuration-reference
 version: 2.1
-
+orbs:
+  node: circleci/node@5.0.3
 # Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:
-  main:
+  setup:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - node/install-packages:
+          app-dir: JDA-12/v1 
+          cache-only-lockfile: true 
+          check-cache: never 
+          include-branch-in-cache-key: true 
+          pkg-manager: npm 
+          with-cache: true 
+  build:
     # Specify the execution environment. You can specify an image from Dockerhub or use one of our Convenience Images from CircleCI's Developer Hub.
     # See: https://circleci.com/docs/2.0/configuration-reference/#docker-machine-macos-windows-executor
     docker:
@@ -14,22 +26,13 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "pre-check-1"
-          command: "python --version"
-      - run:
-          name: "install poetry"
-          command: "pip install --user poetry"
-      - run:
-          name: "initialize poetry" 
-          command: "poetry init"
-      - run:
-          name: "post-install"
-          command: "poetry config virtualenvs.prefer-active-python true"
+          name: "checks"
+          command: "echo $(python --version)"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
-  version: 1
   build:
     jobs:
-      - main
+      - setup
+      - build
