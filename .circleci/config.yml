@@ -29,7 +29,7 @@ jobs:
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     steps:
       - checkout:
-          path: ~/jobs-data-analyzer/JDA-12
+          path: ~/jobs-data-analyzer
       - run:
           name: "install-python"
           command: "sudo apt-get install python && python --version"
