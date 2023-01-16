@@ -10,7 +10,7 @@ jobs:
       - image: cimg/base:stable
     steps:
       - node/install-packages:
-          app-dir: JDA-12/v1 
+          app-dir: ../JDA-12/v1 
           cache-only-lockfile: true 
           check-cache: never 
           include-branch-in-cache-key: true 
@@ -26,8 +26,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "checks"
-          command: "echo $(python --version)"
+          name: "install-python"
+          command: "sudo apt-get install python && python --version"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
