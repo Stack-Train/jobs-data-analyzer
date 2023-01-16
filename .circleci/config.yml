@@ -9,8 +9,11 @@ jobs:
     docker:
       - image: cimg/base:stable
     steps:
+      - run:
+          name: "check"
+          command: "la ./"
       - node/install-packages:
-          app-dir: ./jobs-data-analyzer/JDA-12/v1
+          app-dir: v1
           cache-only-lockfile: true 
           check-cache: never 
           include-branch-in-cache-key: true 
