@@ -11,7 +11,7 @@ jobs:
     steps:
       - run:
           name: "check"
-          command: "echo $(ls ./)"
+          command: "ls -a ./"
       - node/install-packages:
           app-dir: v1
           cache-only-lockfile: true 
