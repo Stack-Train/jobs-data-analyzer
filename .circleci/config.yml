@@ -2,8 +2,7 @@
 version: 2.1
 orbs:
   node: circleci/node@5.0.3
-# Define a job to be invoked later in a workflow.
-# See: https://circleci.com/docs/2.0/configuration-reference/#jobs
+
 jobs:
   setup:
     docker:
@@ -15,19 +14,17 @@ jobs:
       - checkout:
           path: ~/jobs-data-analyzer
       - node/install-packages:
-          app-dir: ""
           cache-only-lockfile: true 
           check-cache: never 
           include-branch-in-cache-key: true 
           pkg-manager: npm 
           with-cache: true 
       - run:
-          name: "check-install"
-          command: "ls -a ./ && npm install"
+          command: ls -a ./ && npm ci
+          name: check and install
+          
 
   build:
-    # Specify the execution environment. You can specify an image from Dockerhub or use one of our Convenience Images from CircleCI's Developer Hub.
-    # See: https://circleci.com/docs/2.0/configuration-reference/#docker-machine-macos-windows-executor
     docker:
       - image: cimg/base:stable
     
@@ -37,11 +34,9 @@ jobs:
       - checkout:
           path: ~/jobs-data-analyzer
       - run:
-          name: "install-python"
-          command: "sudo apt-get install python && python --version"
+          name: install python
+          command: sudo apt-get install python && python --version
 
-# Invoke jobs via workflows
-# See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
   build:
     jobs:
