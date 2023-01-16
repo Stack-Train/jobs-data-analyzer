@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: "pre-check-1"
-          command: "python --version && pip --version"
+          command: "python --version"
       - run:
           name: "install poetry"
           command: "pip install --user poetry"
