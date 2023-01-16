@@ -1,4 +1,10 @@
 # Giting it. Start here.
+<<<<<<< HEAD
+=======
+
+## Important: When creating a branch from an issue please rename the `README.md`to avoid conflicts with the `main` branch.
+
+>>>>>>> 46fe1b5 (Update GIT-IT.md.)
 # [We've got Issues! 📋](https://solvestack.atlassian.net/jira/software/projects/JDA/boards/1)
 
 There are basically three categories of `issues`;

@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+
+node_modules/
+node_modules
+
 # Mac .DS_Store 
 .preset.sh
 .DS_Store
