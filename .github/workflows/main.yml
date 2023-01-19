@@ -1,0 +1,22 @@
+name: visualizer
+run-name: ${{ github.actor }} is launching JDA servers
+on:
+  push:
+    branches:
+      - dev    # General feature work
+      - JDA-11 # Workflow setup
+      - JDA-12 # Visualization setup
+
+  schedule:
+    - cron: "0 9 * * 1"
+    
+jobs:
+  jda-launch:
+    name: Launch the JDA servers for this project
+    runs-on: ubuntu-18.04
+    steps: 
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+
+
+
