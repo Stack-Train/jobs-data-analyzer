@@ -31,7 +31,7 @@ api = Api(app)
 jda.config['FLASK_ADMIN_SWATCH'] = 'cerulean'
 admin = Admin(jda, name='JDA', template_mode='bootstrap3')
 
-from JDA-12 import models, views
+from ./ import models, views
 
 if __name__ == "__main__":
     jda.run(debug=True)

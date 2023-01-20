@@ -2,7 +2,6 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp; Everything related to visualization. <br />
 
-<<<<<<< HEAD
 <span>
 <img width="400" src="../piechart.png">
 <img width="400" src="../barchart.png">
@@ -165,7 +164,9 @@ When running from a `poetry` activated (`JDA`) `virtualenv` set the flask variab
 2. Build dashboard to visualize jobs data from `db`, integrate with results from `4`:`ec2` above
 3. Testing, testing, some more testing
 4. Machine learning. See `4` above.
+
 =======
+
 &nbsp;&nbsp;&nbsp;&nbsp; [References issue JDA-12](https://solvestack.atlassian.net/browse/JDA-12?atlOrigin=eyJpIjoiZjMzZjNkNjBjMTIxNDYyNGJmZWJiZDc0MmU2YzY4OTciLCJwIjoiaiJ9)
 
 ## Tableau WebApp with Flask backend
@@ -193,4 +194,3 @@ password:   yourpassword
 - `Flask`
 - `Tableau` ( `Rest API` and `JS API` )
 - `HTML / CSS / JS`
->>>>>>> 445d259 (JDA-12 Create seperate folder for JDA-12)

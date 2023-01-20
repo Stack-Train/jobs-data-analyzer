@@ -9,5 +9,5 @@ Should move `public` assets to `static` folder and `views` to `templates`
 `npm start`
 
 ## NB
-Launch this server, then launch `data-API` server
+Launch the `data-API` server before launching this `server`
 
