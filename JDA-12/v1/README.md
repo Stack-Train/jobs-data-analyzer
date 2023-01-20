@@ -1,13 +1,10 @@
-# V1
+# Frontend Server 
 
 Temporary frontend. 
 
-## TODO 
-Should move `public` assets to `static` folder and `views` to `templates`
+## Running
 
-## running
-`npm start`
+Go to `JDA` folder and `npm start` <br/>
+It will launch the `api` before launching the `frontend` server.
 
-## NB
-Launch the `data-API` server before launching this `server`
-
+Read JDA/servers for other launch methods.

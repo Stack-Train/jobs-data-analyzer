@@ -1,13 +1,15 @@
 {
-  "name": "jda",
+  "name": "jobs-data-analyzer",
   "version": "1.0.0",
-  "description": "\"A jobs data visualizer/dashboard. Simplify job searching.\"",
-  "main": "JDA-12/v1/bin/www",
+  "description": "\"A jobs data visualizer/dashboard to simplify job searching.\"",
   "directories": {
     "test": "tests"
   },
   "scripts": {
-    "start": "node ./JDA-12/v1/bin/www",
+    "api": "node ./APIs/exp-API/bin/www",
+    "frontend": "node ./JDA-12/v1/bin/www",
+    "start": "npm run api & npm run frontend",
+    "dev": "pm2 start ecosystem.config.js --only 'jda-api,jda-frontend'",
     "test": "node ./tests/javascript/tests.js"
   },
   "repository": {
@@ -22,13 +24,21 @@
     "Stack-Breakthrough",
     "Search"
   ],
-  "author": "Stack-Breakthrough",
+  "author": "Stack-Breakthrough Developers",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/StackBreakthrough/jobs-data-analyzer/issues"
   },
   "homepage": "https://github.com/StackBreakthrough/jobs-data-analyzer#readme",
   "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.3",
+    "echarts": "^5.4.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0",
     "pm2": "^5.2.2"
   }
 }

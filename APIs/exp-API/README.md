@@ -4,9 +4,8 @@ API to parsed data.
 Runs on independent server.
 
 ## Running
-`npm start`
 
-## NB: 
-Launch `v1`frontend after launching this server.
+Go to `JDA` folder and run `npm start` <br/>
+It will launch this `api` server before launching the `frontend` server.
 
-In the future will use `pm2` to manage sequential launches and intergrate into flask.
+READ JDA/servers.md for other launch methods

@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 
 
+.env
 node_modules/
 node_modules
 
