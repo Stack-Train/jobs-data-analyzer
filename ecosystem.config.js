@@ -55,7 +55,11 @@ module.exports = {
             repo: 'git@github.com:Stack-Breakthrough/jobs-data-analyzer.git',
             path: 'DESTINATION_PATH',
             'pre-deploy-local' : '',
+<<<<<<< HEAD
             'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
+=======
+            'post-deploy' : "npm install && pm2 reload ecosystem.config.js --only 'jda-api,jda-frontend' --env production"
+>>>>>>> 93dc399 (Configure server script and add pm2 for server mgmt)
         }
     }
 };
